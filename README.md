@@ -7,20 +7,6 @@
 SHAP, Feature Importance 고도화, AutoML)까지 한 노트북에 구현했고, 마지막 셀이 한국어 PDF
 보고서를 자동 생성한다.
 
-## 실행 방법 (Colab 권장 — 내 컴퓨터 저장공간 불필요)
-
-1. `Telco_Churn_FE_Pipeline.ipynb`를 Google Colab에서 연다.
-   - GitHub에 올렸다면: Colab → File → Open notebook → GitHub 탭 → 저장소/노트북 선택.
-   - 또는 [https://colab.research.google.com](https://colab.research.google.com) 에서 직접 업로드.
-2. 상단 메뉴 `런타임(Runtime) → 모두 실행(Run all)`.
-3. 데이터는 코드가 인터넷에서 자동 다운로드하므로 별도 업로드가 필요 없다.
-4. 마지막 셀이 `Telco_Churn_보고서_2204774_박소현.pdf`를 생성하고 자동 다운로드한다.
-
-## 제출물
-
-- 소스코드: 이 GitHub 저장소 주소 (`Telco_Churn_FE_Pipeline.ipynb`)
-- 보고서: 노트북 실행으로 생성되는 PDF 파일
-
 ## 데이터셋
 
 Telco Customer Churn (약 7,043행, 21컬럼). 노트북이 공개 미러 URL에서 자동 로드한다.
